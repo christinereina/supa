@@ -26,8 +26,9 @@ test ('this should test life Expectancy calculation, should return a random numb
   expect(newUser.lifeExpectancy()).toBeLessThan(100);
 });
 
-test ('this should test Life Expectancy on Mercury (Mercury age - life expectancy)', () => {
-  expect(newUser.estimatedMercury()).toBeLessThan(220);
+//theshold would be 220 years
+test ('this should test life Expectancy on Mercury (mercury age + life expectancy)', () => {
+  expect(newUser.estimatedMercury()).toBeLessThan(221);
 });
 
 });
