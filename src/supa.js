@@ -14,5 +14,11 @@ export class User {
   }
 
   marsAge() {
+    let marsYears = Math.floor(this.age/1.88);
+    return marsYears;
+  }
+
+  jupiterAge() {
+
   }
 }
