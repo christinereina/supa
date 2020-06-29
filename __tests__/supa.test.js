@@ -23,7 +23,7 @@ test ('this should test Jupiter age calculation', () => {
 });
 
 test ('this should test life Expectancy calculation, should return a random number', () => {
-  expect(newUser.lifeExpectancy()).toEqual(1);
+  expect(newUser.lifeExpectancy()).toEqual(0);
 });
 
 });
