@@ -51,9 +51,12 @@ export class User {
 
   //years left on each planet
   }
-  
+
   leftMercury() {
     let finalMercury = this.estimatedMercury() - this.mercuryAge();
     return finalMercury;
+  }
+
+  leftVenus() {
   }
 }
