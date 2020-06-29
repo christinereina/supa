@@ -13,8 +13,9 @@ test ('this should test Mercury age calculation', () => {
   test ('this should test Venus age calculation', () => {
     expect(newUser.venusAge()).toEqual(46);
   });
-});
 
 test ('this should test Mars age calculation', () => {
   expect(newUser.marsAge()).toEqual(15);
+});
+
 });
