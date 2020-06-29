@@ -28,6 +28,8 @@ export class User {
   return lifeExpectancy;
   }
 
+  //life expectancy on each planet 
+
   estimatedMercury() {
     let mercuryLife = this.mercuryAge() + this.lifeExpectancy();
     return mercuryLife;
@@ -44,5 +46,11 @@ export class User {
   }
 
   estimatedJupiter() {
+    let jupiterLife = this.jupiterAge() + this.lifeExpectancy();
+    return jupiterLife;
+
+  //years left on each planet
+
+  leftMercury() {
   }
 }
