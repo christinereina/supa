@@ -29,6 +29,11 @@ export class User {
   }
 
   estimatedMercury() {
+    let mercuryLife = this.mercuryAge() + this.lifeExpectancy();
+    return mercuryLife;
+  }
+
+  estimatedVenus() {
 
   }
 }
