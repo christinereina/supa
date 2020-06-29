@@ -18,4 +18,8 @@ test ('this should test Mars age calculation', () => {
   expect(newUser.marsAge()).toEqual(15);
 });
 
+test ('this should test Jupiter age calculation', () => {
+  expect(newUser.jupiterAge()).toEqual(2);
+});
+
 });
