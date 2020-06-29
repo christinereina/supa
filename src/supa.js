@@ -34,6 +34,11 @@ export class User {
   }
 
   estimatedVenus() {
+    let venusLife = this.venusAge() + this.lifeExpectancy();
+    return venusLife;
+  }
+
+  estimatedMars() {
 
   }
 }
