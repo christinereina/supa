@@ -39,6 +39,10 @@ export class User {
   }
 
   estimatedMars() {
+    let marsLife = this.marsAge() + this.lifeExpectancy();
+    return marsLife;
+  }
 
+  estimatedJupiter() {
   }
 }
