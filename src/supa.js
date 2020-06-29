@@ -4,6 +4,7 @@ export class User {
   }
 
   mercuryAge() {
-
+    let mercuryYears = Math.floor(this.age/.24);
+    return mercuryYears;
   }
 }
