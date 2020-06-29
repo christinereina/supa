@@ -22,8 +22,12 @@ test ('this should test Jupiter age calculation', () => {
   expect(newUser.jupiterAge()).toEqual(2);
 });
 
-test ('this should test life Expectancy calculation, should return a random number', () => {
+test ('this should test life Expectancy calculation, should return a random number less than 100', () => {
   expect(newUser.lifeExpectancy()).toBeLessThan(100);
+});
+
+test ('this should test Life Expectancy on Mercury (Mercury age - life expectancy)', () => {
+  expect(newUser.estimatedMercury()).toBeLessThan(220);
 });
 
 });
