@@ -23,7 +23,12 @@ export class User {
     return jupiterAge;
   }
 
-lifeExpectancy () {
+  lifeExpectancy () {
+    let lifeExpectancy = Math.floor(Math.random() * 100);
+  return lifeExpectancy;
+  }
+
+  estimatedMercury() {
 
   }
 }
