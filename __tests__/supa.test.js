@@ -31,4 +31,9 @@ test ('this should test life Expectancy on Mercury (mercury age + life expectanc
   expect(newUser.estimatedMercury()).toBeLessThan(220);
 });
 
+//theshold would be 146 years
+test ('this should test life Expectancy on Venus (venus age + life expectancy)', () => {
+  expect(newUser.estimatedVenus()).toBeLessThan(220);
+});
+
 });
