@@ -63,6 +63,7 @@ export class User {
   }
 
   leftMars() {
-
+    let finalMars = this.marsAge() - this.estimatedMars() ;
+    return finalMars;
   }
 }
