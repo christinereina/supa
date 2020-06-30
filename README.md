@@ -7,11 +7,11 @@
 ## Description
 
 
-This is a super duper *S-P-A-C-E* calculator! This handy calculator will help calculate the user's age on any planet. 
+This is a super duper *S-P-A-C-E* calculator! This handy calculator will help calculate the user's age on any planet. This calculator wil also calculate the years left for the user!
 
 ### Specs
 
-#### Current Age
+#### User's current age on each planet
 
 | Behavior       | Input         | Output  |
 | ------------- |:-------------:| -----:|
@@ -20,7 +20,7 @@ This is a super duper *S-P-A-C-E* calculator! This handy calculator will help ca
 | Calculates users age on Mars   | Age: 29 | *15 years* |
 | Calculates users age on Jupiter | Age: 29 | *2 years* |
 
-#### Years Left 
+#### User's years left
 
 Years left will be calculated by taking the users planet age subtracted from life expectancy. Life expectancy will be calculated randomly from 1 - 100.
 
