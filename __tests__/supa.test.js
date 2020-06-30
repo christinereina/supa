@@ -47,11 +47,11 @@ test ('this should test life Expectancy on Jupiter (Jupiter age + life expectanc
 });
 
 test ('this should calculate the final years left on Mercury', () => {
-  expect(newUser.leftMercury()).toBeGreaterThan(2);
+  expect(newUser.leftMercury()).toBeGreaterThan(-91);
 });
 
 test ('this should calculate the final years left on Venus', () => {
-  expect(newUser.leftVenus()).toBeGreaterThan(46);
+  expect(newUser.leftVenus()).toBeGreaterThan(-54);
 });
 
 });
