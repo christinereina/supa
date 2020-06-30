@@ -68,6 +68,7 @@ export class User {
   }
 
   leftJupiter() {
-
+    let finalJupiter = this.jupiterAge() - this.estimatedJupiter() ;
+    return finalJupiter;
   }
 }
