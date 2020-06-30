@@ -11,7 +11,7 @@ This is a super duper *S-P-A-C-E* calculator! This handy calculator will help ca
 
 ### Specs
 
-Current Age
+#### Current Age
 
 | Behavior       | Input         | Output  |
 | ------------- |:-------------:| -----:|
@@ -19,6 +19,17 @@ Current Age
 | Calculates users age on Venus | Age: 29 | *46 years*|
 | Calculates users age on Mars   | Age: 29 | *15 years* |
 | Calculates users age on Jupiter | Age: 29 | *2 years* |
+
+#### Years Left 
+
+Years left will be calculated by taking the users planet age subtracted from life expectancy. Life expectancy will be calculated randomly from 1 - 100.
+
+| Behavior       | Input         | Output  |
+| ------------- |:-------------:| -----:|
+| Calculates users years left on Mercury | Age: 29 | (Mercury age - life expectancy)|
+| Calculates users years left on Venus | Age: 29 | (Venus age - life expectancy)|
+| Calculates users years left on Mars  | Age: 29 |(Mars age - life expectancy)|
+| Calculates users years left on Jupiter | Age: 29 | (Jupiter age - life expectancy) |
 
 ## Setup/Installation Requirements
 
