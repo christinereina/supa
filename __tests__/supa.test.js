@@ -58,5 +58,9 @@ test ('this should calculate the final years left on Mars', () => {
   expect(newUser.leftMars()).toBeGreaterThan(-85);
 });
 
+test ('this should calculate the final years left on Jupiter', () => {
+  expect(newUser.leftJupiter()).toBeGreaterThan(-98);
+});
+
 });
 
