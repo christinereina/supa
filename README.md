@@ -22,7 +22,7 @@ This is a super duper *S-P-A-C-E* calculator! This handy calculator will help ca
 
 #### User's years left
 
-Years left will be calculated by taking the users planet age subtracted from life expectancy. Life expectancy will be calculated randomly from 1 - 100.
+Years left will be calculated by taking the users planet age subtracted from life expectancy. Life expectancy will be set at 75 years.
 
 | Behavior       | Input         | Output  |
 | ------------- |:-------------:| -----:|
