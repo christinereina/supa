@@ -22,44 +22,36 @@ test ('this should test Jupiter age calculation', () => {
   expect(newUser.jupiterAge()).toEqual(2);
 });
 
-test ('this should test life Expectancy calculation, should return a random number less than 100', () => {
-  expect(newUser.lifeExpectancy()).toBeLessThan(100);
-});
-
-//theshold would be 220 years
 test ('this should test life Expectancy on Mercury (mercury age + life expectancy)', () => {
-  expect(newUser.estimatedMercury()).toBeLessThan(220);
+  expect(newUser.estimatedMercury()).toEqual(195);
 });
 
-//theshold would be 146 years
 test ('this should test life Expectancy on Venus (venus age + life expectancy)', () => {
-  expect(newUser.estimatedVenus()).toBeLessThan(146);
+  expect(newUser.estimatedVenus()).toEqual(121);
 });
 
-//theshold would be 115 years
 test ('this should test life Expectancy on Mars (Mars age + life expectancy)', () => {
-  expect(newUser.estimatedMars()).toBeLessThan(115);
+  expect(newUser.estimatedMars()).toEqual(90);
 });
 
-//theshold would be 102 years
 test ('this should test life Expectancy on Jupiter (Jupiter age + life expectancy)', () => {
-  expect(newUser.estimatedJupiter()).toBeLessThan(102);
+  expect(newUser.estimatedJupiter()).toEqual(77);
 });
 
 test ('this should calculate the final years left on Mercury', () => {
-  expect(newUser.leftMercury()).toBeGreaterThan(-91);
+  expect(newUser.leftMercury()).toEqual(120);
 });
 
 test ('this should calculate the final years left on Venus', () => {
-  expect(newUser.leftVenus()).toBeGreaterThan(-54);
+  expect(newUser.leftVenus()).toEqual(46);
 });
 
 test ('this should calculate the final years left on Mars', () => {
-  expect(newUser.leftMars()).toBeGreaterThan(-85);
+  expect(newUser.leftMars()).toEqual(15);
 });
 
 test ('this should calculate the final years left on Jupiter', () => {
-  expect(newUser.leftJupiter()).toBeGreaterThan(-98);
+  expect(newUser.leftJupiter()).toEqual(2);
 });
 
 });
