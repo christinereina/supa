@@ -23,34 +23,29 @@ export class User {
     return jupiterAge;
   }
 
-  lifeExpectancy () {
-    let lifeExpectancy = Math.floor(Math.random() * 100);
-  return lifeExpectancy;
-  }
-
-  //life expectancy on each planet 
+    // life expectancy set to 75 years 
 
   estimatedMercury() {
-    let mercuryLife = this.mercuryAge() + this.lifeExpectancy();
+    let mercuryLife = this.mercuryAge() + 75;
     return mercuryLife;
   }
 
   estimatedVenus() {
-    let venusLife = this.venusAge() + this.lifeExpectancy();
+    let venusLife = this.venusAge() + 75;
     return venusLife;
   }
 
   estimatedMars() {
-    let marsLife = this.marsAge() + this.lifeExpectancy();
+    let marsLife = this.marsAge() + 75;
     return marsLife;
   }
 
   estimatedJupiter() {
-    let jupiterLife = this.jupiterAge() + this.lifeExpectancy();
+    let jupiterLife = this.jupiterAge() + 75;
     return jupiterLife;
   }
-
-    //years left on each planet
+    
+    // years left on each planet
 
   leftMercury() {
     let finalMercury = this.mercuryAge() - this.estimatedMercury();
